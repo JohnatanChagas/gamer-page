@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #01295e;
+}
+
+.img {
+    width: 100%;
+}
+
+h1 {
+    padding-top: 2.3rem;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+p {
+    padding: 37px 65px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+input {
+    display: block;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    width: 386px;
+    height: 50px;
+    left: 30px;
+    top: 32px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+textarea {
+    display: block;
+    background: #F9F9F9;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    height: 120px;
+    width: 386px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+form {
+    padding: 1.8rem;
+    width: 446px;
+    height: 467px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+button {
+    width: 187px;
+    height: 52px;
+    left: 30px;
+    top: 366px;
+    background: #40BB15;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    color: #FFFFFF;
+    transition: all 0.5s;
+}
+
+.voltar {
+    background: #828282;
+}
+
+.voltar:hover {
+    background: rgb(130, 130, 130, 0.8);
+}
+
+button:hover {
+    background: rgb(64, 187, 21, 0.8);
+}
+
+.btn-contato {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.caixa {
+    transition: opacity 1s;
+}
+
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 37px;
+    }
+
+    p {
+        font-size: 15px;
+        padding: 0;
+        padding: 0px 20px 15px;
+    }
+
+    .btn-contato {
+        margin-top: 50px;
+    }
+
+    input {
+        width: 200px;
+        height: 40px;
+        margin-left: 10px;
+    }
+
+    textarea {
+        width: 200px;
+        height: 40px;
+        margin-left: 10px;
+    }
+
+    button {
+        width: 200px;
+        height: 40px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    form {
+        width: 280px;
+        height: 420px;
+    }
+}
+
+@media (max-width: 375px) {
+    h1 {
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .btn-contato {
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+}
