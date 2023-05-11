@@ -1,8 +1,8 @@
 # gamer-page
-Santander page.
+Gamer page.
 <br>
 <br>
-Usando HTML e CSS! 
+Usando HTML, CSS e JavaScript! 
 <br>
 <br>
 Visualização do projeto final:
